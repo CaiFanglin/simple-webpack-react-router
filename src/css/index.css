@@ -1,0 +1,27 @@
+ul.chooseAbled{
+    list-style-type: none;
+    border: 0px blue solid;
+    height: 27px;
+    width: 480px;
+}
+ul.chooseAbled li{
+    list-style-type: none;
+    float: left;
+    width: 74px;
+    height: 27px;
+    line-height: 27px;
+    text-align: center;
+    background-color: #CCCCFF;
+    background-position: -74px 0px;
+}
+ul.chooseAbled li:not(:last-child){
+    border-right: 1px solid yellow;
+}
+ul.chooseAbled li:hover{
+    cursor: pointer;
+}
+.contentContainer {
+    border: 1px solid gray;
+    width: 400px;
+    margin-left: 40px;
+}
